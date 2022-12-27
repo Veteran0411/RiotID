@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="icon" href="uper.JPG">
+</head>
+<body>
+    <form action="">
+    <div class="loginbox"><div class="upperbox"> <img src="uper.JPG" alt="" class="avatar" ></div>
+  <h2>JOIN THE GUILD</h2>
+    <p>Riot ID:</p>
+    <input type="text" class="nam" name="Riot ID" placeholder="Enter your Riot ID">
+    <p for="tg">Tagline:</p>
+    <input type="password" class="pas" name="Tagline" id="tg" placeholder="Enter your #TAGLINE" >
+
+    
+</div>
+</form>
+<a href="login_2.html" target="_blank"><input type="submit" value="SUBMIT" id="sub"></a>
+<pre><strong>!--Veterans Arcade--</strong></pre>
+<h1>Be a -->> <span class="autotype"></span></h1>
+<div  style="position:relative;top: 350px;left: 600px;font-size: 15px;"><strong><a href="mailto:somlinghajji@gmail.com" class="con" style="text-decoration: none;">contact owner-</a></strong></div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script>
+    var typed = new Typed(".autotype",{
+        strings:["GAMER..","SOLDIER..","PACIFIER.."],
+        typeSpeed:150,
+        backSpeed:150,
+        loop:true
+    })
+</script>
+</html>
+
+<style>
+body{
+    background: url("background.png");
+    background-size:cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background-color: white;
+    color: black;
+    position:absolute;
+    top: 50%; 
+     left: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box; 
+}
+
+
+.avatar{
+    width: 75px;
+    height: 75px;
+    border-radius: 20px;
+    position: absolute;
+   top: 15px;
+  left: 10px;
+}
+.upperbox{
+    width: 320px;
+    height: 120px;
+    background: url("upper.jpg");
+}
+ul{
+    list-style-type: none;
+    
+}
+ul,li{
+    display: inline;
+    
+}
+img{
+    width: 60px;
+    height: 60px;
+}
+h2{
+    margin: 0;
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-align: center;
+    animation: somm 5s   30  ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.loginbox p{
+    margin: 0;
+    padding-left: 10px;
+    font-weight: bold;
+}
+.loginbox input{ 
+    width: 90%;
+    padding-left: 10px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"],input[type="password"] {
+    border: none;
+    border-bottom: 0.1px transparent #000;
+    outline: none;
+    height: 30px;
+}
+ input[type="submit"]{
+    border: solid;
+    outline: none;
+    position: relative;
+    top: 470px;
+    left: 54%;
+    padding: 0px;
+    height: 30px;
+    width: 80px;
+    background: url("https://img.freepik.com/premium-vector/pastel-watercolor-background_27794-104.jpg");
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right:40% ;
+}
+ input[type="submit"]:hover{
+    color: white;
+    background:black ;
+}
+a:link{
+    color: black;
+}
+a:hover{
+    color: #FF4A4A;
+}
+@keyframes somm {
+    0%{
+        color: pink;
+    }
+    25%{
+        color: powderblue;
+    }
+    50%{
+        color: gray;
+    }
+    75%{
+        color: black;
+    }
+    100%{
+        color: aqua;
+    }
+}
+
+</style>
